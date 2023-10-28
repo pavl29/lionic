@@ -113,6 +113,21 @@ body {
   font-weight: 600;
   font-size: 15px;
 }
+.header-list-link:focus {
+  outline-offset: 3px;
+  outline: 1px solid #71a7e2;
+}
+
+.header-list-link:hover {
+  color: #71a7e2;
+  border-bottom: none;
+}
+
+.header-list-link:active {
+  color: #3172b9;
+  border-bottom: 1px solid #3172b9;
+  outline: none;
+}
 
 .btn {
   padding: 15px 35px;
@@ -123,6 +138,19 @@ body {
   text-align: center;
   border-radius: 3px;
   background: #3172b9;
+}
+
+.btn:hover {
+  background: #71a7e2;
+}
+.btn:focus {
+  outline-offset: 3px;
+  outline: 1px solid #71a7e2;
+}
+
+.btn:active {
+  background: #0E3B6C;
+  outline: none;
 }
 
 /* hero */
@@ -564,19 +592,19 @@ body {
   padding: 20px 20px;
   margin: 0px 0px 9px 0px;
 }
-  .form-check {
-    color: #787878;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: normal;
-  }
-  .form-check input {
-    margin: 0px 8px 0px 0px;
-  }
+.form-check {
+  color: #787878;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.form-check input {
+  margin: 0px 8px 0px 0px;
+}
 
 .bottom-descr a {
-  color: #3172B9;
+  color: #3172b9;
   font-size: 12px;
   font-weight: 400;
   text-decoration-line: underline;
