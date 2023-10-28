@@ -149,7 +149,7 @@ body {
 }
 
 .btn:active {
-  background: #0E3B6C;
+  background: #0e3b6c;
   outline: none;
 }
 
@@ -213,6 +213,8 @@ body {
   background-position: left;
 }
 
+/* services */
+
 .services {
   border-bottom: 1px solid #dadada;
 }
@@ -252,12 +254,19 @@ body {
   max-width: 270px;
   text-align: center;
 }
+.services-item:hover {
+  border-color: #3172b9;
+  background-color: #3172b9;
+}
 
 .item-descr {
   color: #787878;
   font-size: 14px;
   line-height: 150%;
   /* 21px */
+}
+.services-item:hover .item-descr {
+  color: #fff;
 }
 
 .services-item:not(:nth-child(4n)) {
@@ -268,10 +277,21 @@ body {
   margin: 0 0 15px 0;
 }
 
+
+.services-item-icon path {
+  fill: #3172b9;
+}
+.services-item:hover .services-item-icon path{
+  fill: #fff;
+}
+
 .services-iten-title {
   margin: 0;
   margin-bottom: 15px;
   text-align: center;
+}
+.services-item:hover .services-iten-title {
+  color: #fff;
 }
 
 .item-title {
