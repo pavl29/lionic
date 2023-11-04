@@ -112,6 +112,7 @@ body {
   color: #1c1c1c;
   font-weight: 600;
   font-size: 15px;
+  transition: color 0.3s ease-in-out;
 }
 .header-list-link:focus {
   outline-offset: 3px;
@@ -137,7 +138,8 @@ body {
   font-weight: 600;
   text-align: center;
   border-radius: 3px;
-  background: #3172b9;
+  background-color: #3172b9;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -253,6 +255,9 @@ body {
   align-items: center;
   max-width: 270px;
   text-align: center;
+  transition:
+    background-color.3s ease-in-out,
+    border-color.3s ease-in-out;
 }
 .services-item:hover {
   border-color: #3172b9;
@@ -264,6 +269,7 @@ body {
   font-size: 14px;
   line-height: 150%;
   /* 21px */
+  transition: color 0.3s ease-in-out;
 }
 .services-item:hover .item-descr {
   color: #fff;
@@ -279,6 +285,7 @@ body {
 
 .services-item-icon path {
   fill: #3172b9;
+  transition: fill 0.3s ease-in-out;
 }
 .services-item:hover .services-item-icon path {
   fill: #fff;
@@ -298,6 +305,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 130%;
+  transition: color 0.3s ease-in-out;
 }
 
 .services-item-descr {
@@ -334,6 +342,7 @@ body {
   display: flex;
   position: relative;
   width: 100%;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .block-preview-link:focus {
@@ -578,6 +587,9 @@ body {
   padding: 16px 28px;
   width: 251px;
   height: 60px;
+  transition:
+    border-color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 .form-input:nth-child(-n + 2) {
   margin-bottom: 19px;
@@ -615,6 +627,9 @@ body {
   padding: 15px 28px;
   width: 251px;
   height: 60px;
+  transition:
+    border-color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .form-select:focus {
@@ -641,6 +656,9 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
+  transition:
+    border-color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .form-textaria:focus {
@@ -730,6 +748,23 @@ body {
   color: #787878;
   font-size: 15px;
   font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:focus {
+  outline-offset: 3px;
+  outline: 1px solid #71a7e2;
+}
+
+.footer-link:hover {
+  color: #71a7e2;
+  border-bottom: none;
+}
+
+.footer-link:active {
+  color: #3172b9;
+  border-bottom: 1px solid #3172b9;
+  outline: none;
 }
 
 .social-item {
@@ -750,6 +785,13 @@ body {
 }
 .item-social-icon-mail path {
   stroke: #000;
+}
+
+.item-social-icon path {
+  transition: fill 0.3s ease-in-out;
+}
+.item-social-icon-mail path {
+  transition: stroke 0.3s ease-in-out;
 }
 
 .sotial-link:focus {
