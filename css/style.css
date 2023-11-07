@@ -86,7 +86,7 @@ body {
   background-color: #fff;
 }
 
-.header-container {
+.header__container {
   align-items: center;
 }
 
@@ -96,35 +96,39 @@ body {
   margin: 0 auto;
 }
 
-.header-logo {
+.header__logo {
   margin-right: auto;
 }
 
-.header-nav {
+.header__nav {
   margin: 0 52px 0 0;
 }
 
-.header-list-item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin: 0 52px 0 0;
 }
+.footer__nav .nav__link {
+  font-size: 15px;
+  color: #787878;
+}
 
-.header-list-link {
+.nav__link {
   color: #1c1c1c;
   font-weight: 600;
   font-size: 15px;
   transition: color 0.3s ease-in-out;
 }
-.header-list-link:focus {
+.nav__link:focus {
   outline-offset: 3px;
   outline: 1px solid #71a7e2;
 }
 
-.header-list-link:hover {
+.nav__link:hover {
   color: #71a7e2;
   border-bottom: none;
 }
 
-.header-list-link:active {
+.nav__link:active {
   color: #3172b9;
   border-bottom: 1px solid #3172b9;
   outline: none;
@@ -165,13 +169,13 @@ body {
   background-position: center;
 }
 
-.hero-content {
+.hero__content {
   max-width: 50%;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.hero-title {
+.hero__title {
   margin: 0;
   margin-bottom: 25px;
   color: #1c1c1c;
@@ -181,7 +185,7 @@ body {
   /* 52px */
 }
 
-.hero-descr {
+.hero__descr {
   margin: 0;
   margin-bottom: 34px;
   color: #787878;
@@ -190,12 +194,12 @@ body {
   /* 24.8px */
 }
 
-.hero-wrapper {
+.hero__wrapper {
   flex-direction: column;
   align-items: center;
 }
 
-.hero-button {
+.hero__button {
   margin: 0;
   margin-bottom: 14px;
   min-width: 250px;
@@ -203,7 +207,7 @@ body {
   padding-bottom: 20px;
 }
 
-.hero-secure {
+.hero__secure {
   padding-left: 29px;
   color: #787878;
   font-size: 11px;
@@ -716,31 +720,31 @@ body {
   padding: 42px 0;
 }
 
-.footer-container {
+.footer__container {
   align-items: center;
   justify-content: space-between;
 }
 
-.footer-left,
-.footer-right {
+.footer__left,
+.footer__right {
   align-items: center;
 }
 
-.footer-logo {
+.footer__logo {
   margin-right: 25px;
 }
 
-.footer-copy {
+.footer__copy {
   color: #787878;
   font-size: 12px;
   line-height: 180%;
 }
 
-.footer-nav {
+.footer__nav {
   margin-right: 55px;
 }
 
-.footer-item:not(:last-child) {
+.footer__nav .nav__item:not(:last-child) {
   margin-right: 28px;
 }
 
